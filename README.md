@@ -4,3 +4,5 @@ It is compatible with Alfresco Community 5.2 as it uses the 5.2 REST APIs. It do
 You can either download installer binaries, or download the source code and compile with Microsoft Visual Studio 2015. Code is in C#.
 
 Released under GNU LGPLv3. Please write to us at contact@eisenvault.com with any questions or comments.
+
+Visit us at https://www.eisenvault.com
