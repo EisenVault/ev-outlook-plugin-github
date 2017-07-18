@@ -13,6 +13,10 @@ namespace EisenVaultOutlookPlugin.Test
     {
         static void Main(string[] args)
         {
+            string filename = "a.s/d|a<>a     ";
+            var x = ClearFileName(filename);
+            Console.WriteLine(x);
+
             //Account acc = new Account();
             //acc.Loign("https://autoinstallexample.eisenvault.net/", "admin", "admin");
 
@@ -30,6 +34,29 @@ namespace EisenVaultOutlookPlugin.Test
             Nodes node = new Nodes();
             node.CreateFolder("-my-", "NEw Folder");
 
+        }
+
+
+        public static string ClearFileName(string name)
+        {
+
+            List<char> invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
+            invalidFileNameChars.AddRange(Path.GetInvalidPathChars());
+            invalidFileNameChars.AddRange(new char[] { '*', '"', '<', '>', '\\', '/', '.', '|' });
+            invalidFileNameChars = invalidFileNameChars.Distinct().ToList();
+            var filename = invalidFileNameChars.Aggregate(name, (current, c) => current.Replace(c.ToString(), ""));
+                        
+            if (filename.Length > 200)
+                filename = filename.Substring(0, 200);
+
+
+            filename = filename.Replace(".", "");
+            while ((filename.EndsWith(" ")))
+            {
+                filename = filename.Substring(0, filename.Length - 1);
+            }
+
+            return filename;
         }
     }
 }

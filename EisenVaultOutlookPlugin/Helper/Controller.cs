@@ -19,13 +19,21 @@ namespace EisenVaultOutlookPlugin.Helper
             try
             {
                 string name = item.Subject;
-                List<char> invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
-                invalidFileNameChars.AddRange(Path.GetInvalidPathChars());
-                var filename = new string(name.Select(ch => invalidFileNameChars.Contains(ch) ? Convert.ToChar(invalidFileNameChars.IndexOf(ch) + 65) : ch).ToArray());
-                if (filename.Length > 200)
-                    filename = filename.Substring(0, 200);
+                //List<char> invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
+                //invalidFileNameChars.AddRange(Path.GetInvalidPathChars());
+                //invalidFileNameChars.AddRange(new char[] { '*', '"', '<', '>', '\\', '/', '.','|' });
+                //var filename = new string(name.Select(ch => invalidFileNameChars.Contains(ch) ? Convert.ToChar(invalidFileNameChars.IndexOf(ch) + 65) : ch).ToArray());
+                //if (filename.Length > 200)
+                //    filename = filename.Substring(0, 200);
 
-                filename = filename.Replace(".", "");
+
+                //filename = filename.Replace(".", "");
+                //while ((filename.EndsWith(" ")))
+                //{
+                //    filename = filename.Substring(0, filename.Length-1);
+                //}
+
+                string filename = ClearFileName(name);
 
 
                 // Create Folder
@@ -125,6 +133,27 @@ namespace EisenVaultOutlookPlugin.Helper
             }         
         }
 
+        public static string ClearFileName(string name)
+        {
+
+            List<char> invalidFileNameChars = Path.GetInvalidFileNameChars().ToList();
+            invalidFileNameChars.AddRange(Path.GetInvalidPathChars());
+            invalidFileNameChars.AddRange(new char[] { '*', '"', '<', '>', '\\', '/', '.', '|','-', '?' });
+            invalidFileNameChars = invalidFileNameChars.Distinct().ToList();
+            var filename = invalidFileNameChars.Aggregate(name, (current, c) => current.Replace(c.ToString(), ""));
+
+            if (filename.Length > 200)
+                filename = filename.Substring(0, 200);
+
+
+            filename = filename.Replace(".", "");
+            while ((filename.EndsWith(" ")))
+            {
+                filename = filename.Substring(0, filename.Length - 1);
+            }
+
+            return filename;
+        }
 
         public void DeleteFolders(List<string> paths)
         {
