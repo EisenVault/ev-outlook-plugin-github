@@ -1,4 +1,4 @@
-﻿using EisenVaultOutlookPlugin.Data.Modul;
+﻿using ForeglimpseOutlookPlugin.Data.Modul;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EisenVaultOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data.Entity;
 using EisenVaultOutlookPlugin.Helper;
 using EisenVaultOutlookPlugin.Properties;
 

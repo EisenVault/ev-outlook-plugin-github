@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EisenVaultOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data;
 
-namespace EisenVaultOutlookPlugin.Data.Modul
+namespace ForeglimpseOutlookPlugin.Data.Modul
 {
 
     public class Nodes

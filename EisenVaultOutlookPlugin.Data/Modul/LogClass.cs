@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EisenVaultOutlookPlugin.Data.Modul
+namespace ForeglimpseOutlookPlugin.Data.Modul
 {
     public class LogClass
     {

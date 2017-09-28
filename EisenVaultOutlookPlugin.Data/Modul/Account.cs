@@ -4,10 +4,11 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
-using EisenVaultOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data;
 using Newtonsoft.Json;
 
-namespace EisenVaultOutlookPlugin.Data.Modul
+namespace ForeglimpseOutlookPlugin.Data.Modul
 {
    public  class Account
     {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using EisenVaultOutlookPlugin.Data;
-using EisenVaultOutlookPlugin.Data.Entity;
-using EisenVaultOutlookPlugin.Data.Modul;
+using ForeglimpseOutlookPlugin.Data;
+using ForeglimpseOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data.Modul;
 using Outlook = Microsoft.Office.Interop.Outlook;
 namespace EisenVaultOutlookPlugin.Helper
 {

@@ -5,10 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EisenVaultOutlookPlugin.Data.DataBase;
-using EisenVaultOutlookPlugin.Data.Entity;
+using ForeglimpseOutlookPlugin.Data.DataBase;
+using ForeglimpseOutlookPlugin.Data.Entity;
 
-namespace EisenVaultOutlookPlugin.Data.Modul
+namespace ForeglimpseOutlookPlugin.Data.Modul
 {
     public class Option
     {

@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using EisenVaultOutlookPlugin.Data.Modul;
-using Newtonsoft.Json;
+using ForeglimpseOutlookPlugin.Data.Modul;
 
-namespace EisenVaultOutlookPlugin.Data
+namespace ForeglimpseOutlookPlugin.Data
 {
     public class API
     {

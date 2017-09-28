@@ -34,16 +34,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtError = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.imgLoad = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imgLoad = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgLoad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLoad)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCreate
             // 
-            this.btnCreate.BackColor = System.Drawing.Color.Coral;
+            this.btnCreate.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnCreate.FlatAppearance.BorderSize = 0;
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -93,25 +93,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Folder Info";
             // 
-            // imgLoad
-            // 
-            this.imgLoad.Image = global::EisenVaultOutlookPlugin.Properties.Resources.loading;
-            this.imgLoad.Location = new System.Drawing.Point(388, 59);
-            this.imgLoad.Name = "imgLoad";
-            this.imgLoad.Size = new System.Drawing.Size(75, 40);
-            this.imgLoad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgLoad.TabIndex = 21;
-            this.imgLoad.TabStop = false;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EisenVaultOutlookPlugin.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(560, 81);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            // 
+            // imgLoad
+            // 
+            this.imgLoad.Location = new System.Drawing.Point(388, 59);
+            this.imgLoad.Name = "imgLoad";
+            this.imgLoad.Size = new System.Drawing.Size(75, 40);
+            this.imgLoad.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgLoad.TabIndex = 21;
+            this.imgLoad.TabStop = false;
             // 
             // FormCreateFolder
             // 
@@ -131,8 +129,8 @@
             this.Text = "Create Folder";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgLoad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLoad)).EndInit();
             this.ResumeLayout(false);
 
         }

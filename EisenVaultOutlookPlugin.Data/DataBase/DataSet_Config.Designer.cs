@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace EisenVaultOutlookPlugin.Data.DataBase {
+namespace ForeglimpseOutlookPlugin.Data.DataBase {
     
     
     /// <summary>

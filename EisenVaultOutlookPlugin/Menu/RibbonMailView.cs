@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using EisenVaultOutlookPlugin.Data.Modul;
+using ForeglimpseOutlookPlugin.Data.Modul;
 using EisenVaultOutlookPlugin.Forms;
 using EisenVaultOutlookPlugin.Helper;
 using Microsoft.Office.Tools.Ribbon;

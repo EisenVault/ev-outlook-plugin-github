@@ -48,7 +48,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Coral;
+            this.btnLogin.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -131,9 +131,9 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label4.Location = new System.Drawing.Point(94, 116);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(203, 13);
+            this.label4.Size = new System.Drawing.Size(216, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "(Example: https://example.eisenvault.net)";
+            this.label4.Text = "(Example: https://example.foreglimpse.co.in)";
             // 
             // txtError
             // 

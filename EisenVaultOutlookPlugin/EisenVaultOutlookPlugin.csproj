@@ -26,7 +26,7 @@
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <RootNamespace>EisenVaultOutlookPlugin</RootNamespace>
-    <AssemblyName>EisenVaultOutlookPlugin</AssemblyName>
+    <AssemblyName>ForeglimpseOutlookPlugin</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
     <IsWebBootstrapper>False</IsWebBootstrapper>

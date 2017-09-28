@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EisenVaultOutlookPlugin.Data.Modul;
+using ForeglimpseOutlookPlugin.Data.Modul;
 using EisenVaultOutlookPlugin.Forms;
 using Outlook = Microsoft.Office.Interop.Outlook;
 namespace EisenVaultOutlookPlugin.Helper

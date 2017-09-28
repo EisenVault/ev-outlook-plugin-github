@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EisenVaultOutlookPlugin.Data.Entity
+namespace ForeglimpseOutlookPlugin.Data.Entity
 {
     public class PluginUserInfo
     {

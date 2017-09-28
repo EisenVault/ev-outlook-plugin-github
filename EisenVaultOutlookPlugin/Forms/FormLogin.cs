@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EisenVaultOutlookPlugin.Data.Modul;
+using ForeglimpseOutlookPlugin.Data.Modul;
 
 namespace EisenVaultOutlookPlugin.Forms
 {

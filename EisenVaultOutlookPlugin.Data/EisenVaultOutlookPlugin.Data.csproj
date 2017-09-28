@@ -7,8 +7,8 @@
     <ProjectGuid>{D742087D-6887-4E7E-96BF-471342E5FA87}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EisenVaultOutlookPlugin.Data</RootNamespace>
-    <AssemblyName>EisenVaultOutlookPlugin.Data</AssemblyName>
+    <RootNamespace>ForeglimpseOutlookPlugin.Data</RootNamespace>
+    <AssemblyName>ForeglimpseOutlookPlugin.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
