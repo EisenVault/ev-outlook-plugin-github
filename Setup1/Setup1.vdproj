@@ -100,13 +100,13 @@
         "Entry"
         {
         "MsmKey" = "8:_A8921569D7F83A88A128685E80F3A9C8"
-        "OwnerKey" = "8:_DD4FD93CBBAE465CB867A2BC08128D68"
+        "OwnerKey" = "8:_7A27EFC4B458050746226D437B60F085"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A8921569D7F83A88A128685E80F3A9C8"
-        "OwnerKey" = "8:_7A27EFC4B458050746226D437B60F085"
+        "OwnerKey" = "8:_DD4FD93CBBAE465CB867A2BC08128D68"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -142,13 +142,13 @@
         "Entry"
         {
         "MsmKey" = "8:_BCCDE2E2ECBAAF4D51D13A596D08ED2F"
-        "OwnerKey" = "8:_7A27EFC4B458050746226D437B60F085"
+        "OwnerKey" = "8:_DD4FD93CBBAE465CB867A2BC08128D68"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_BCCDE2E2ECBAAF4D51D13A596D08ED2F"
-        "OwnerKey" = "8:_DD4FD93CBBAE465CB867A2BC08128D68"
+        "OwnerKey" = "8:_7A27EFC4B458050746226D437B60F085"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -172,13 +172,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7A27EFC4B458050746226D437B60F085"
+        "OwnerKey" = "8:_881BCF7785D848A1AD16BFCC45944878"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_881BCF7785D848A1AD16BFCC45944878"
+        "OwnerKey" = "8:_7A27EFC4B458050746226D437B60F085"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -798,15 +798,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Foreglimpse Outlook Plugin"
-        "ProductCode" = "8:{3005E47D-594D-46F3-9244-9E1A79422A27}"
-        "PackageCode" = "8:{A7926D12-2EF6-4F85-88CC-C94769B8F031}"
+        "ProductCode" = "8:{2CBA6CDF-1D9B-41B1-B248-A2AB520A0C98}"
+        "PackageCode" = "8:{7D6CC4F9-6B4E-48FA-AFC1-5CA48FAE7D5D}"
         "UpgradeCode" = "8:{44D8CAC4-39B8-4D49-96DB-E442D5133F1A}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:Foreglimpse"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
