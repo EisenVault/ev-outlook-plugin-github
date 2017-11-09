@@ -6,3 +6,5 @@ You can either download installer binaries, or download the source code and comp
 Released under GNU LGPLv3. Please write to us at contact@eisenvault.com with any questions or comments.
 
 Visit us at https://www.eisenvault.com
+
+Note: This only works with trusted SSL Certificates (not self signed ones) and this does not work with Alfresco Cloud (my.alfresco.com).
