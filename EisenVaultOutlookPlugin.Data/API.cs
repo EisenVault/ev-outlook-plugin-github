@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -32,6 +33,9 @@ namespace EisenVaultOutlookPlugin.Data
             {
                 using (var client = new HttpClient())
                 {
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls |
+                                                           SecurityProtocolType.Tls11 |
+                                                           SecurityProtocolType.Tls12 ;
                     client.Timeout = new TimeSpan(1, 0, 0); // 1 hour
                     var authValue = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{username}:{password}")));
                     client.DefaultRequestHeaders.Authorization = authValue;
@@ -64,6 +68,9 @@ namespace EisenVaultOutlookPlugin.Data
             {
                 using (var client = new HttpClient())
                 {
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls |
+                                                           SecurityProtocolType.Tls11 |
+                                                           SecurityProtocolType.Tls12 ;
                     client.Timeout = new TimeSpan(1, 0, 0);// 1 hour
                     HttpResponseMessage response = await client.PostAsync(url, content);
                     StatusCode = (int)response.StatusCode;
@@ -98,6 +105,9 @@ namespace EisenVaultOutlookPlugin.Data
             {
                 using (var client = new HttpClient())
                 {
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls |
+                                                           SecurityProtocolType.Tls11 |
+                                                           SecurityProtocolType.Tls12 ;
                     client.Timeout = new TimeSpan(1, 0, 0); // 1 hour
                     var authValue = new AuthenticationHeaderValue("Basic",Convert.ToBase64String(Encoding.UTF8.GetBytes($"{username}:{password}")));
                     client.DefaultRequestHeaders.Authorization = authValue;
@@ -148,6 +158,9 @@ namespace EisenVaultOutlookPlugin.Data
             {
                 using (var client = new HttpClient())
                 {
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls |
+                                                           SecurityProtocolType.Tls11 |
+                                                           SecurityProtocolType.Tls12 ;
                     client.Timeout = new TimeSpan(1, 0, 0); // 1 hour
                     var authValue = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes($"{username}:{password}")));
                     client.DefaultRequestHeaders.Authorization = authValue;
